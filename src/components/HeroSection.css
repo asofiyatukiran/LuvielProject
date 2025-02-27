@@ -1,0 +1,94 @@
+.hero-container {
+  display: flex !important;
+  position: relative;
+  z-index: 1; /* Ensure it's not higher than the sidebar */
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  margin-top: 0;
+  padding-top: 50px;
+  background-color: #F9F7F4;
+  position: relative;
+}
+
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-family: 'Zesta', serif;
+  font-size: 130px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #000;
+  text-align: left;
+}
+
+.hero-text p {
+  font-family: 'Mazzard', sans-serif;
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+  max-width: 450px;
+}
+
+.hero-btns {
+  margin-top: 20px;
+}
+
+.hero-btns .btns {
+  background-color: #996633;
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  font-family: 'Mazzard', sans-serif;
+  font-weight: 500;
+}
+
+.hero-btns .btns i {
+  font-size: 18px;
+}
+
+.hero-image {
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 90%;
+  border-radius: 10px;
+}
+
+/* Annotations (small labels on the image) */
+.annotation {
+  position: absolute;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Mazzard', sans-serif;
+  font-size: 14px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.annotation-1 {
+  top: 20%;
+  right: 10%;
+}
+
+.annotation-2 {
+  bottom: 30%;
+  left: 5%;
+}
+
+.annotation-3 {
+  top: 50%;
+  right: 5%;
+}
