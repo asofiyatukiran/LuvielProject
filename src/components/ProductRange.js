@@ -4,7 +4,7 @@ import "./ProductRange.css";
 function ProductRange() {
   return (
     <div className="product-range-container">
-      <h2 className="section-title">Our Product Range</h2>
+      <h2 className="section-title">AI Overview</h2>
       
       {/* Top row of product cards */}
       <div className="product-cards-top">
