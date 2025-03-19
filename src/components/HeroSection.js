@@ -16,6 +16,7 @@ function HeroSection() {
             className='btns'
             buttonStyle='btn--signup'
             buttonSize='btn--large'
+            to="/DiagnosticsSection"
             onClick={() => console.log('Try Now Clicked')}
           >
             Try Now <i className="fas fa-angle-double-right"></i>
