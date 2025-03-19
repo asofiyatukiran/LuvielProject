@@ -4,8 +4,7 @@ import HeroSection from '../HeroSection';
 import Footer from '../Footer';
 import DiagnosticsSection from '../DiagnosticsSection';
 import BestProduct from '../BestProduct';
-import ProductRange from '../ProductRange';
-import ChatAISections from '../ChatAISections';
+import AIOverview from '../AIOverview';
 
 function Home() {
   return (
@@ -13,8 +12,7 @@ function Home() {
       <HeroSection />
       <DiagnosticsSection />
       <BestProduct />
-      <ProductRange />
-      <ChatAISections />
+      <AIOverview />
       <Footer />
     </>
   );
