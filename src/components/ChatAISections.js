@@ -1,8 +1,8 @@
 import React from 'react';
-import './Cards.css';
+import './ChatAISections.css';
 import CardItem from './CardItem';
 
-function Cards() {
+function ChatAISections() {
   return (
     <div className='cards'>
       <h1>Check out these EPIC Destinations!</h1>
@@ -48,4 +48,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default ChatAISections;

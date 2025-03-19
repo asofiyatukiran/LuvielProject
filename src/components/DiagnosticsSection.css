@@ -5,7 +5,7 @@
     justify-content: space-between;
     flex-direction: row-reverse; /* Flip the order */
     padding: 100px;
-    background-color: #ffffff;
+    background: #ffffff;
 }
 
 
