@@ -1,0 +1,58 @@
+.ai-overview-container {
+  background-color: #f7f3f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px; /* Ensures it doesn't stretch too much */
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
+.ai-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 600px;
+}
+
+.ai-content h1 {
+  font-family: 'Zesta', serif;
+  font-size: 70px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.ai-content p {
+  font-family: 'Mazzard', sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+.chat-button {
+  display: inline-block;
+  margin-top: 20px;
+  text-align: left;
+  padding: 10px 20px;
+  
+}
+
+.ai-image img {
+  max-width: 300px; /* Ensures the image is not too big */
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .ai-overview-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .ai-content {
+    width: 100%;
+  }
+  .ai-image img {
+    max-width: 200px;
+  }
+}
