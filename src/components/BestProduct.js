@@ -11,6 +11,7 @@ const bestProducts = [
 ];
 
 export default function BestProduct() {
+  console.log("testt test ");
   return (
     <div className="best-product-section">
       <div className="best-product-header">
