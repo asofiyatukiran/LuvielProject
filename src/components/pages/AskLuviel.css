@@ -1,0 +1,134 @@
+/* General Styling */
+.askluviel-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+}
+
+/* Sidebar */
+.chat-sidebar {
+  width: 250px;
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-chat {
+  background: #9D6B3F;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.new-chat:hover {
+  background: #7A4D2A;
+}
+
+.recent {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #5C4A3B;
+}
+
+.recent ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.recent li {
+  padding: 8px 0;
+  border-bottom: 1px solid #E0D6C9;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Chat Area */
+.chat-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Chat Box */
+.chat-box {
+  height: 100px;
+  width: auto;
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  background: #FAF3EB;
+  border-radius: 12px;
+  box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Messages */
+.message {
+  padding: 12px;
+  border-radius: 18px;
+  max-width: 60%;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+
+.ai {
+  background: #F0EAE4;
+  color: #333;
+  align-self: flex-start;
+}
+
+.user {
+  background: #D1C1AD;
+  color: black;
+  align-self: flex-end;
+}
+
+/* Input Field */
+.input-container {
+  display: flex;
+  align-items: center;
+  background: #F7F2EC;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  background: #FAF3EB;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  background: #9D6B3F;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 12px;
+  border-radius: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #7A4D2A;
+}
+
+button span {
+  font-size: 20px;
+}
