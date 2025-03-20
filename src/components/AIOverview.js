@@ -20,7 +20,7 @@ function AIOverview() {
             className='btns'
             buttonStyle='btn--chat'
             buttonSize='btn--large'
-            to="/Services"
+            to="/AskLuviel"
           >
             Chat Now <i className="fas fa-angle-double-right"></i>
           </Button>
