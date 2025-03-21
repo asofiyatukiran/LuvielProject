@@ -3,7 +3,6 @@ import '../../App.css';
 import HeroSection from '../HeroSection';
 import Footer from '../Footer';
 import DiagnosticsSection from '../DiagnosticsSection';
-import BestProduct from '../BestProduct';
 import AIOverview from '../AIOverview';
 
 function Home() {
@@ -11,7 +10,6 @@ function Home() {
     <>
       <HeroSection />
       <DiagnosticsSection />
-      <BestProduct />
       <AIOverview />
       <Footer />
     </>
