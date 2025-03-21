@@ -1,7 +1,7 @@
 /* General Styling */
 .askluviel-container {
   display: flex;
-  height: 100vh;
+  height: 92vh;
   font-family: 'Roboto', sans-serif;
   background: #fff;
 }
@@ -57,6 +57,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 20px;
+  gap: 10px;
 }
 
 /* Chat Box */
@@ -114,21 +115,23 @@ input:focus {
   outline: none;
 }
 
-button {
+aichat-button {
   background: #9D6B3F;
   color: white;
   border: none;
-  border-radius: 30px;
+  width: 20px;
+  height: 20px; 
+  border-radius: 50%;
   padding: 12px;
-  border-radius: 8px;
+  /*border-radius: 8px;*/
   margin-left: 10px;
   cursor: pointer;
 }
 
-button:hover {
+aichat-button:hover {
   background: #7A4D2A;
 }
 
-button span {
+aichat-button span {
   font-size: 20px;
 }
