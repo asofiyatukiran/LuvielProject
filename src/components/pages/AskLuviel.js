@@ -55,7 +55,7 @@ const AskLuviel = () => {
             value={input}
             onChange={(e) => setInput(e.target.value)}
           />
-          <button onClick={handleSendMessage}>
+          <button className="aichat-button" onClick={handleSendMessage}>
             <span>&uarr;</span>
           </button>
         </div>
